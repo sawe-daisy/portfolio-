@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {BiotreeLink} from '../models/biotree-link';
 
 @Component({
   selector: 'app-component1',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Component1Component implements OnInit {
 
+  biotreeLinks: BiotreeLink[] = [];
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

@@ -1,1 +1,284 @@
-<p>component2 works!</p>
+<nav class="flex-container">
+    <a href="/">Home</a>
+    <a href="#section-two" class="about">About</a>
+    <a href="#section-five">Portfolios</a>
+    <a href="#section-six">Contact</a>
+  </nav>
+  
+  <!-- ===============  Scroll to Top button =============== -->
+  <div [ngClass]="showScrollButton ? 'scroll-button show-scroll-button' : 'scroll-button'" (click)="moveToTop()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path fill="currentColor"
+        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+      </path>
+    </svg>
+  </div>
+  
+  <!-- ===============  Section 1 =============== -->
+  
+  <div id="section-one">
+    <img id="rectangle-one" alt="" src="assets/rectangle_midnight_blue.svg">
+    <img id="triangle-one" alt="" src="assets/triangle_humming_bird.svg">
+    <img id="vector-one" alt="" src="assets/ellipse_yellow.svg">
+    <img id="vector-two" alt="" src="assets/vector_pink.svg">
+    <img id="vector-three" alt="" src="assets/vector_midnight_blue.svg">
+  
+    <div id="social-box">
+      <a href="https://github.com/PerisOduol618" target="_blank">
+        <img id="github-social" class="social-icons" alt="Github Link" src="assets/github.png">
+      </a>
+      <a href="https://www.instagram.com/oduolpepe/" target="_blank">
+        <img id="insta-social" class="social-icons" alt="Instagram Link" src="assets/insta_outline.png">
+      </a>
+      <a href="https://twitter.com/OduolPeris" target="_blank">
+        <img id="twitter-social" class="social-icons" alt="Twitter Link" src="assets/twitter_outline.png">
+      </a>
+    </div>
+  
+    <div id="section-one-main">
+      <div id="intro">
+        <p class="color-black-russian text-intro"><span class="color-dark-pink">Hello,</span> I am Peris Oduol</p>
+        <h1 class="color-prussian-blue">Fullstack Developer</h1>
+        <p class="color-rock-blue subtext">I write code, and make websites.</p>
+        <div style="margin-top: 60px">
+          <a href="mailto:oduolpepe618@gmail.com" target="_blank"><button class="button-pink">Hire Me</button></a>
+          <a href="../static/perispersonalcv.pdf" target="_blank"><button class="button-outline">Get CV</button></a>
+        </div>
+      </div>
+      <img class="profile_pic" id="me-one" alt="main-pg" src="assets/section_one_main.svg">
+    </div>
+  </div>
+  
+  <!-- ===============  Section 2 =============== -->
+  
+  <div id="section-two">
+    <div class="card">
+      <div class="section-heading">
+        <p class="color-dark-pink section-heading-paragraph">WHO AM I</p>
+        <!-- <h3 class="section-heading-text">ABOUT ME</h3> -->
+      </div>
+      <br>
+      <p class="color-rock-blue about-paragraph" style="text-align: center">I’m Peris Oduol, a fullstack developer,
+        from Kenya 🇰🇪.</p>
+      <p class="color-rock-blue about-paragraph">
+        I am a fullstuck developer, and I work across all platforms and browsers.I care about building interfaces that are
+        usable and pleasant for most numbers of people possible.
+        <br><br>
+        My professional life has been 100% driven by my passion for technology since when I was a kid.Fortunately after
+        high school I got a chance to enroll at <span><b>Moringa School</b></span> , where I got the chance to sharpen my
+        skills in software development.
+        <br><br>
+  
+        While at Moringa, I was able to have skills in frontend development, backend development, UI/UX design, collaboration and team working, and  solving challenging problems like hackerrank and codewars.
+  
+        <br><br>
+        Right now,I'm excited about and still want to learn very compilicated WebAssembly, and working towards becoming a Senior developer.In the coming years, also plan to become a better-rounded full-stack dev.
+      </p>
+    </div>
+  
+    <img id="triangle-two" alt="" src="assets/triangle_border_midnight_blue.svg">
+    <img id="triangle-three" alt="" src="assets/triangle_yellow.svg">
+  </div>
+  
+  <!-- ===============  Section 3 =============== -->
+  <div id="section-three">
+    <img id="vector-four" alt="" src="assets/vector_pink.svg">
+    <img id="rectangle-two" alt="" src="assets/rectangle_midnight_blue.svg">
+    <img id="triangle-five" alt="" src="assets/triangle_humming_bird.svg">
+    <img id="vector-five" alt="" src="assets/ellipse_yellow.svg">
+  
+    <div class="section-heading">
+      <p class="color-dark-pink section-heading-paragraph">SKILLS</p>
+      <h3 class="section-heading-text">TECH STACK</h3>
+    </div>
+  
+    <div id="section-three-container" class="flex-container">
+      <img class="tech_stack_pic" alt="" src="assets/tech_stack_image.svg">
+      <div id="tech-icons" class="flex-container flex-row">
+        <div class="flex-container flex-column">
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/python.svg">
+            <p>Python</p>
+          </div>
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/django.svg">
+            <p>Django</p>
+          </div>
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/flask.png">
+            <p>Flask</p>
+          </div>
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/angular.svg">
+            <p>Angular</p>
+          </div>
+        </div>
+        <div class="flex-container flex-column">
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/html.svg">
+            <p>HTML</p>
+          </div>
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/css.svg">
+            <p>CSS</p>
+          </div>
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/git.svg">
+            <p>Git</p>
+          </div>
+  
+          <div class="flex-container justify-start">
+            <img alt="" src="assets/icons/typescript.svg">
+            <p>Type Script</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <img id="triangle-four" alt="" src="assets/triangle_midnight_blue.svg">
+  </div>
+  
+  <!-- ==============  Section 4 ================ -->
+  <div id="section-four" style="box-shadow: 3px,5px;">
+    <img id="triangle-six" alt="" src="assets/triangle_yellow.svg">
+  
+    <div class="card">
+      <div class="section-heading">
+        <p class="color-dark-pink section-heading-paragraph">WHAT I DO</p>
+        <h3 class="section-heading-text">SPECIALIZING IN</h3>
+      </div>
+  
+      <div id="skill-section" class="flex-container flex-column">
+        <div class="flex-container skill-row">
+          <div class="flex-container">
+          </div>
+  
+          <div class="flex-container">
+            <img alt="" src="assets/api_development.svg">
+            <div class="skill-text-container">
+              <p class="color-prussian-blue skill-text-heading">API Development</p>
+              <p class="color-rock-blue skill-text-about">Backend system and API development with Django.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flex-container skill-row">
+          <div class="flex-container">
+            <img alt="" src="assets/web_development.svg">
+            <div class="skill-text-container">
+              <h3 class="color-prussian-blue skill-text-heading">Web Development</h3>
+              <p class="color-rock-blue skill-text-about">Web Development with HTML, CSS, JavaScript, Python and
+                TypeScript.</p>
+            </div>
+          </div>
+  
+          <div class="flex-container">
+            <img alt="" src="assets/ui_ux.svg">
+            <div class="skill-text-container">
+              <p class="color-prussian-blue skill-text-heading">UI/UX</p>
+              <p class="color-rock-blue skill-text-about">Landing pages, User Flow, Prototyping, Web app design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+    <img id="rectangle-three" alt="" src="assets/rectangle_midnight_blue.svg">
+  </div>
+  
+  <!-- ==============  Section 5 ================ -->
+  <div id="section-five">
+    <img id="triangle-seven" alt="" src="assets/triangle_midnight_blue.svg">
+    <img id="vector-six" alt="" src="assets/vector_light_blue.svg">
+    <div class="section-heading">
+      <p class="color-dark-pink section-heading-paragraph">MY PROJECTS</p>
+      <h3 class="section-heading-text">PORTFOLIO</h3>
+    </div>
+  
+    <div>
+      <div *ngFor="let project of projects; let i = index" [ngClass]="i % 2 === 0 ? 'flex-container' :
+      'flex-container flex-container-reverse'">
+        <div class="project-screenshot">
+          <!--  Container for the project icon  -->
+          <img src="{{project.image}}">
+        </div>
+        <div class="project-description">
+          <!--  Container for project description -->
+          <h3>{{project.name}}</h3>
+          <p class="color-rock-blue">{{project.desc}}</p>
+          <div style="margin-top: 60px">
+            <a href="{{project.demo}}" target="_blank"><button class="button-pink">Demo</button></a>
+            <a href="{{project.source}}" target="_blank" [ngClass]="project.source === '' ? 'hide' : ''">
+              <button class="button-outline">Source</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <img id="triangle-eight" alt="" src="assets/triangle_border_midnight_blue.svg">
+    <img id="vector-seven" alt="" src="assets/vector_pink.svg">
+  </div>
+  
+  
+  <!-- ==============  Section 6 ================ -->
+  <div id="section-six">
+    <div class="card">
+      <p>Have Any Project In Mind? <span class="color-dark-pink">Hire Me  At</span></p>
+      <a id="email" href="mailto:deesawe16@gmail.com.com" target="_blank">perisoduol618@gmail.com</a>
+    </div>
+    <img id="rectangle-five" alt="" src="assets/rectangle_midnight_blue.svg">
+    <img id="triangle-nine" alt="" src="assets/triangle_humming_bird.svg">
+    <img id="vector-eight" alt="" src="assets/ellipse_yellow.svg">
+  </div>
+  
+  
+  <!-- ==============  Footer ================ -->
+  <div id="social-links">
+    <div class="flex-container">
+      <a href="https://github.com/PerisOduol618" target="_blank"><img src="assets/social/github.svg"></a>
+      <a href="https://www.instagram.com/oduolpepe/" target="_blank"><img src="assets/social/insta.svg"></a>
+      <a href="https://twitter.com/OduolPeris" target="_blank"><img src="assets/social/twitter.svg"></a>
+      <a href="https://www.linkedin.com/in/oduol-peris-32aa971b4/" target="_blank"><img
+          src="assets/social/linkedin.svg"></a>
+    </div>
+  </div>
+  
+  <!-- ==============  Footer ================ -->
+  <footer>
+    <p>COPYRIGHT © {{date| date:'yyyy'}}, Oduol Peris</p>
+  </footer>
+  
+  <script>
+    let scroll_button = document.getElementById("scroll-to-top");
+  
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        scroll_button.addClass('show');
+      } else {
+        scroll_button.removeClass('show');
+      }
+    });
+  
+    scroll_button.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+  
+    //smooth scrolling
+    $(function () {
+      $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>

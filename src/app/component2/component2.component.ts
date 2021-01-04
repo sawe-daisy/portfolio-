@@ -1,5 +1,5 @@
 import {Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild} from '@angular/core';
-import {Project} from '../models/project';
+import {Projects} from '../models/projects';
 @Component({
   selector: 'app-component2',
   templateUrl: './component2.component.html',
@@ -8,7 +8,7 @@ import {Project} from '../models/project';
 export class Component2Component implements OnInit {
 
   date: Date = new Date();
-  projects: Project[] = [
+  projects: Projects[] = [
     {
       name: 'Vocelli Pizza', image: 'assets/projects/pizzare.png', desc: 'I developed this app using a basic Html,CSS,Bootstrap and Javascript, ' +
         'The main purpose of the application was to assist both the customers and Vocelli Pizza attendance to have save time while processing orders and ' +

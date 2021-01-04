@@ -13,7 +13,7 @@ import { Component2Component } from './component2/component2.component';
     Component2Component
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],

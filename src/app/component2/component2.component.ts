@@ -10,30 +10,18 @@ export class Component2Component implements OnInit {
   date: Date = new Date();
   projects: Projects[] = [
     {
-      name: 'Vocelli Pizza', image: 'assets/projects/pizzare.png', desc: 'I developed this app using a basic Html,CSS,Bootstrap and Javascript, ' +
-        'The main purpose of the application was to assist both the customers and Vocelli Pizza attendance to have save time while processing orders and ' +
-        '', demo: 'https://xenodochial-pare-ad2ba5.netlify.app', source: 'https://github.com/PerisOduol618/Vocelli-Pizza'
-    },
-    {
-      name: 'Github Search', image: 'assets/projects/githubsearch.png', desc: 'This is an angular app' +
+      name: 'Github Search', image: 'assets/projects', desc: 'This is an angular app' +
         'It is an personalized app where you could  app whereby I could search for various github users and view on their repositories. It is uses an access token from Githubs Api' +
         ' The access token filters data from github to return only users information and repositories.',
-      demo: 'https://perisoduol618.github.io/GithbSearch/', source: 'https://github.com/PerisOduol618/Vocelli-Pizza'
-    },
-    
-    {
-      name: 'The Neighborhood', image: 'assets/projects/nei.png', desc: 'This  application is developed with Django ' +
-        ' It allows you to be in the know about everything happening in your neighborhood. From contact information of different handyman to meeting announcements or even alerts. ' +
-        'The web application uses PostgreSQL as its main database. Source code is ' +
-        'available on my Github.', demo: 'https://perishood.herokuapp.com/',source: 'https://github.com/PerisOduol618/Neighbour-hood'
+      demo: 'https://sawe-daisy.github.io/git-find/', source: 'https://github.com/sawe-daisy/git-find/tree/master/git-search'
     },
     
     
     {
-      name: 'NewsArticles', image: 'assets/projects/news.png', desc: 'NewsArticles App is a flask  app that ' +
+      name: 'SourceInfo', image: 'assets/projects/news.png', desc: 'SourceInfo App is a flask  app that ' +
       'displays various news sorces where users can click links that redirects them to the original site of the news.It involved consumming a News Api in a JSON format Api that generates latest news from  diffrent sources. ' +
         '',
-      demo: 'https://peris-oduol-news-articles1.herokuapp.com/', source: 'https://github.com/PerisOduol618/News-Articles-'
+      demo: 'https://source-info.herokuapp.com/', source: 'https://github.com/sawe-daisy/source-info'
     },
   ];
 

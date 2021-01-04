@@ -1,1 +1,47 @@
-<p>component1 works!</p>
+<div class="container">
+    <div class="row align-items-centre">
+      <div class="col-12 col-md-6">
+        <div class="container fixed">
+          <div class="row">
+            <div class="header">
+              <div class="img-profile">
+                <img src="assets/me.jpg" alt="profile">
+              </div>
+              <div class="profile-info">
+                <h1>Peris Oduol</h1>
+                <h2>I am Daisy Jesang Sawe</h2> 
+                <h2>Fullstack developer</h2>
+              </div>
+            </div>
+          </div>
+        </div>.
+      </div>
+  
+      <div class="container">
+        <div class="row">
+          <div class="link_list">
+            <ul>
+              <a *ngFor="let linkItem of biotreeLinks;" href="{{linkItem.link}}" target="blank">
+                <li class="main-link">
+                  <h6 class="card-subtitle">{{linkItem.name}}</h6>
+                  <p class="card-text">{{linkItem.desc}}</p>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="footer fixed-bottom">
+        <div class="row icon-row">
+          <a href="https://github.com/sawe-daisy" class="btn-icon"><img src="assets/social/github.svg"></a>
+          <a href="https://www.instagram.com/oduolpepe/" class="btn-icon"><img src="assets/social/insta.svg"></a>
+          <a href="https://www.linkedin.com/in/oduol-peris-32aa971b4/" class="btn-icon"><img
+            src="assets/social/linkedin.svg"></a>
+          <a href="https://twitter.com/OduolPeris" class="btn-icon"><img src="assets/social/twitter.svg"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

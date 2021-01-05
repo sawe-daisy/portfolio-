@@ -430,9 +430,6 @@ nav {
     color: #0F0E12;
   }
   
-  
-  /*------- Section 6 ------*/
-  
   #section-six {
     margin-top: 100px;
     text-align: center;
@@ -483,8 +480,6 @@ nav {
     position: relative;
     left: 80%;
   }
-  
-  /*------- Social Links ------*/
   #social-links {
     margin: 3em auto 3em;
     width: 60%;
@@ -493,9 +488,6 @@ nav {
   #social-links img {
     width: 30px;
   }
-  
-  /*------- Footer ------*/
-  
   footer p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -521,17 +513,11 @@ nav {
     bottom: 45px;
     left: 20%;
   }
-  
-  /*------- Responsive (screen: 1300 or less) ------*/
-  
   @media screen and (max-width: 1300px) {
     #section-one-main {
       padding-right: 12%;
     }
   }
-  
-  /*------- Responsive (screen: 1200 or less) ------*/
-  
   @media screen and (max-width: 1200px) {
   
     #social-box {
@@ -546,9 +532,6 @@ nav {
       left: -5%;
     }
   }
-  
-  /*------- Responsive (screen: 1100 or less) ------*/
-  
   @media screen and (max-width: 1100px) {
     #social-box {
       right: -81%;
@@ -563,9 +546,6 @@ nav {
       left: -3%;
     }
   }
-  
-  /*------- Responsive (screen: 1000 or less) ------*/
-  
   @media screen and (max-width: 1000px) {
     #section-one-main {
       padding-right: 2%;
@@ -591,9 +571,6 @@ nav {
       width: 70%;
     }
   }
-  
-  /*------- Responsive (screen: 900 or less) ------*/
-  
   @media screen and (max-width: 900px) {
     #social-box {
       right: -74%;
@@ -607,8 +584,6 @@ nav {
       width: 16em;
     }
   }
-  
-  /*------- Responsive (screen: 800 or less) ------*/
   
   @media screen and (max-width: 800px) {
     #section-one-main {
@@ -643,9 +618,6 @@ nav {
       width: 70%;
     }
   }
-  
-  /*------- Responsive (screen: 700 or less) ------*/
-  
   @media screen and (max-width: 700px) {
     #social-box {
       right: -62%;
@@ -662,87 +634,66 @@ nav {
     .skill-text-container {
       width: 11em;
     }
-  
     #section-five .flex-container .project-screenshot img {
       width: 80%;
     }
   }
-  
-  /*------- Responsive (screen: 600 or less) ------*/
-  
   @media only screen and (max-width: 600px) {
     .profile_pic, #social-box, .tech_stack_pic {
       display: none;
     }
-  
     #section-one-main #intro {
       margin: auto;
     }
-  
     #section-one-main {
       padding-right: 0;
       margin: 5em auto 8em;
     }
-  
     #rectangle-one {
       left: 85%;
     }
-  
     #triangle-one {
       left: 60%;
       top: 40px;
     }
-  
     #vector-one {
       top: 14em;
       left: -20%;
     }
-  
     #vector-two {
       top: 24em;
     }
-  
     #section-three #vector-four {
       left: 0;
     }
-  
     #section-three #tech-icons {
       height: 22em;
       justify-content: space-between;
     }
-  
     #skill-section {
       margin-top: 6em;
     }
-  
     .skill-row {
       flex-direction: column;
     }
-  
     .skill-text-container, #tech-icons, #section-five .flex-container .project-screenshot img {
       width: 100%;
     }
-  
     #section-five .flex-container {
       flex-direction: column;
     }
-  
     #section-six #email {
       font-size: x-large;
     }
-  
     #vector-three, #triangle-three, #vector-six, #triangle-six {
       display: none;
     }
-  
     #triangle-seven {
       left: 10%;
     }
-  
     #section-three #vector-five {
       left: 20%;
     }
-  
     #social-links {
       width: 80%;
     }
